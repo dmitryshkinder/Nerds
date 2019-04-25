@@ -12,21 +12,19 @@
     <header class="main-header">
         <nav class="main-nav">
             <div class="container flexbox">
-
                 <a class="main-header-logo" href="#"><img src="img/nerds-logo.png" alt="Логотип Веб-студии" class="main-nav-logo">
                 </a>
 
                 <ul class="main-nav-list">
                     <li class="main-nav-item"><a href="#">Студия</a></li>
                     <li class="main-nav-item"><a href="#">Клиенты</a></li>
-                    <li class="main-nav-item"><a href="catalog.html">Магазин</a></li>
+                    <li class="main-nav-item main-nav-item-active"><a href="catalog.html">Магазин</a></li>
                     <li class="main-nav-item"><a href="#">Контакты</a></li>
                 </ul>
 
                 <ul class="main-nav-user-list">
                     <li class="main-nav-user-item"><a href="#">Корзина</a></li>
                 </ul>
-
             </div>
         </nav>
     </header>
@@ -84,89 +82,114 @@
                                 <label for="basket">Корзина</label>
                             </p>
                         </fieldset>
-                        <button class="button" type="submit">Показать</button>
+                        <input class="button form-button" type="submit" value="Показать">
                     </form>
                 </section>
 
                 <section class="catalog">
                     <ul class="catalog-list">
-
                         <li class="catalog-item">
-                            <a href="" class="browser-hover">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="40px" viewBox="0 0 360 40" enable-background="new 0 0 360 40" xml:space="preserve">
-                                    <path fill="#4D4D4D" d="M356,0H4C1.8,0,0,1.8,0,4v16v20h360V4C360,1.8,358.2,0,356,0z M22.991,27c-3.866,0-7-3.134-7-7s3.134-7,7-7
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="40px" viewBox="0 0 360 40" enable-background="new 0 0 360 40" xml:space="preserve">
+                                <path fill="#4D4D4D" d="M356,0H4C1.8,0,0,1.8,0,4v16v20h360V4C360,1.8,358.2,0,356,0z M22.991,27c-3.866,0-7-3.134-7-7s3.134-7,7-7
 	s7,3.134,7,7S26.857,27,22.991,27z M46.002,27c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S49.868,27,46.002,27z M69.013,27
 	c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S72.879,27,69.013,27z" />
-                                </svg>
-                                <img src="img/img-sedona.jpg" width="360" height="576" alt="Скриншоп сайта Седона" class="item-img">
-
-                                <div class="hover-catalog">
-                                    <h3 class="catalog-item-title">SEDONA</h3>
-                                    <p class="item-text">Информационный сайт
-                                        для туристов</p>
-                                    <a href="#" class="button">9 900 РУБ.</a>
-                                </div>
-                            </a>
+                            </svg>
+                            <img src="img/img-sedona.jpg" width="360" height="576" alt="Скриншоп сайта Седона" class="item-img">
+                            <div class="hover-catalog">
+                                <h3 class="catalog-item-title"><a href="#">SEDONA</a></h3>
+                                <p class="item-text">Информационный сайт
+                                    для туристов</p>
+                                <a href="#" class="button">9 900 РУБ.</a>
+                            </div>
                         </li>
 
                         <li class="catalog-item">
-                            <a href="#">
-                                <img src="img/img-pink.jpg" width="360" height="576" alt="Скриншоп приложения PINK APP" class="item-img">
-                            </a>
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="40px" viewBox="0 0 360 40" enable-background="new 0 0 360 40" xml:space="preserve">
+                                <path fill="#4D4D4D" d="M356,0H4C1.8,0,0,1.8,0,4v16v20h360V4C360,1.8,358.2,0,356,0z M22.991,27c-3.866,0-7-3.134-7-7s3.134-7,7-7
+	s7,3.134,7,7S26.857,27,22.991,27z M46.002,27c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S49.868,27,46.002,27z M69.013,27
+	c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S72.879,27,69.013,27z" />
+                            </svg>
+                            <img src="img/img-pink.jpg" width="360" height="576" alt="Скриншоп приложения PINK APP" class="item-img">
                             <div class="hover-catalog">
                                 <h3 class="catalog-item-title">Pink APP</h3>
                                 <p class="item-text">Продуктовый лендинг
                                     приложения для iOS и Android</p>
                                 <a href="#" class="button">9 900 РУБ.</a>
                             </div>
+
                         </li>
 
                         <li class="catalog-item">
-                            <a href="#">
-                                <img src="img/img-barbershop.jpg" width="360" height="576" alt="Скриншот сайта BARBERSHOP BORODINSKI" class="item-img">
-                            </a>
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="40px" viewBox="0 0 360 40" enable-background="new 0 0 360 40" xml:space="preserve">
+                                <path fill="#4D4D4D" d="M356,0H4C1.8,0,0,1.8,0,4v16v20h360V4C360,1.8,358.2,0,356,0z M22.991,27c-3.866,0-7-3.134-7-7s3.134-7,7-7
+	s7,3.134,7,7S26.857,27,22.991,27z M46.002,27c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S49.868,27,46.002,27z M69.013,27
+	c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S72.879,27,69.013,27z" />
+                            </svg>
+
+                            <img src="img/img-barbershop.jpg" width="360" height="576" alt="Скриншот сайта BARBERSHOP BORODINSKI" class="item-img">
+
                             <div class="hover-catalog">
                                 <h3 class="catalog-item-title">BARBERSHOP</h3>
-                                <p class="item-text">Сайт салоны красоты. <br>
+                                <p class="item-text">Сайт салоны красоты.
                                     Для мужчин, да.</p>
                                 <a href="#" class="button">9 900 РУБ.</a>
                             </div>
+
                         </li>
 
                         <li class="catalog-item">
-                            <a href="#">
-                                <img src="img/img-mishka.jpg" width="360" height="576" alt="Скриншот сайта MISHKA" class="item-img">
-                            </a>
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="40px" viewBox="0 0 360 40" enable-background="new 0 0 360 40" xml:space="preserve">
+                                <path fill="#4D4D4D" d="M356,0H4C1.8,0,0,1.8,0,4v16v20h360V4C360,1.8,358.2,0,356,0z M22.991,27c-3.866,0-7-3.134-7-7s3.134-7,7-7
+	s7,3.134,7,7S26.857,27,22.991,27z M46.002,27c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S49.868,27,46.002,27z M69.013,27
+	c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S72.879,27,69.013,27z" />
+                            </svg>
+
+                            <img src="img/img-mishka.jpg" width="360" height="576" alt="Скриншот сайта MISHKA" class="item-img">
+
                             <div class="hover-catalog">
                                 <h3 class="catalog-item-title">MISHKA</h3>
-                                <p class="item-text">Интернет-магазин <br>
+                                <p class="item-text">Интернет-магазин
                                     вязаных игрушек</p>
                                 <a href="#" class="button">9 900 РУБ.</a>
                             </div>
+
                         </li>
 
                         <li class="catalog-item">
-                            <a href="#">
-                                <img src="img/img-aplus.jpg" width="360" height="576" alt="Скриншот сайта A PLUS" class="item-img">
-                            </a>
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="40px" viewBox="0 0 360 40" enable-background="new 0 0 360 40" xml:space="preserve">
+                                <path fill="#4D4D4D" d="M356,0H4C1.8,0,0,1.8,0,4v16v20h360V4C360,1.8,358.2,0,356,0z M22.991,27c-3.866,0-7-3.134-7-7s3.134-7,7-7
+	s7,3.134,7,7S26.857,27,22.991,27z M46.002,27c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S49.868,27,46.002,27z M69.013,27
+	c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S72.879,27,69.013,27z" />
+                            </svg>
+
+                            <img src="img/img-aplus.jpg" width="360" height="576" alt="Скриншот сайта A PLUS" class="item-img">
+
                             <div class="hover-catalog">
                                 <h3 class="catalog-item-title">A PLUS</h3>
-                                <p class="item-text">Лендинг курсов повышения <br>
+                                <p class="item-text">Лендинг курсов повышения
                                     квалификации</p>
                                 <a href="#" class="button">9 900 РУБ.</a>
                             </div>
+
                         </li>
 
                         <li class="catalog-item">
-                            <a href="#">
-                                <img src="img/img-kvast.jpg" width="360" height="576" alt="Скриншот сайта КВАСТ" class="item-img">
-                            </a>
+
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="360px" height="40px" viewBox="0 0 360 40" enable-background="new 0 0 360 40" xml:space="preserve">
+                                <path fill="#4D4D4D" d="M356,0H4C1.8,0,0,1.8,0,4v16v20h360V4C360,1.8,358.2,0,356,0z M22.991,27c-3.866,0-7-3.134-7-7s3.134-7,7-7
+	s7,3.134,7,7S26.857,27,22.991,27z M46.002,27c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S49.868,27,46.002,27z M69.013,27
+	c-3.866,0-7-3.134-7-7s3.134-7,7-7s7,3.134,7,7S72.879,27,69.013,27z" />
+                            </svg>
+
+                            <img src="img/img-kvast.jpg" width="360" height="576" alt="Скриншот сайта КВАСТ" class="item-img">
+
                             <div class="hover-catalog">
                                 <h3 class="catalog-item-title">КВАСТ</h3>
-                                <p class="item-text">Промо-сайт производителя <br>
+                                <p class="item-text">Промо-сайт производителя
                                     крафтового кваса</p>
                                 <a href="#" class="button">9 900 РУБ.</a>
                             </div>
+
                         </li>
                     </ul>
 
@@ -174,8 +197,8 @@
             </div>
 
             <ul class="pagination-list">
-                <li class="pagination-item">1</li>
-                <li class="pagination-item"><a href="#">3</a></li>
+                <li class="pagination-item active-pagination-item">1</li>
+                <li class="pagination-item"><a href="#">2</a></li>
                 <li class="pagination-item"><a href="#">3</a></li>
                 <li class="pagination-item-next"><a href="#">СЛЕДУЮЩАЯ</a></li>
             </ul>
@@ -196,10 +219,11 @@
                     <p class="address-phone">
                         тел. +7 (812) 275-75-75
                     </p>
-                    <a href="#" class="button"><span>Напишите нам</span></a>
+                    <a href="#" class="button">Напишите нам</a>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer class="main-footer container">
