@@ -193,7 +193,7 @@
                     <p class="address-phone">
                         тел. +7 (812) 275-75-75
                     </p>
-                    <a href="#" class="button">Напишите нам</a>
+                    <a class="open-modal button" href="#">Напишите нам</a>
                 </div>
             </div>
         </section>
@@ -237,26 +237,39 @@
             <p>Скидка 10% для друзей из социальных сетей.</p>
         </div>
     </footer>
-    <!--
+
     <section class="modal modal-write-us">
         <h2>Напишите нам</h2>
         <form action="https://htmlacademy.ru" class="write-us-form">
-            <p>
-                <label for="user-name"><b>Ваше имя:</b></label>
-                <input id="user-name" type="text" name="user-name" class="write-us-user-name" placeholder="Имя Фамилия">
-            </p>
-            <p>
-                <label for="user-email"><b>Ваш e-mail:</b></label>
-                <input id="user-email" type="email" name="user-email" class="write-us-user-email" placeholder="email@example.com">
-            </p>
-            <p>
+            <div class="modal-flex">
+                <p>
+                    <label for="user-name"><b>Ваше имя:</b></label>
+                    <input id="user-name" type="text" name="user-name" class="write-us-user-name" placeholder="Имя Фамилия">
+                </p>
+                <p>
+                    <label for="user-email"><b>Ваш e-mail:</b></label>
+                    <input id="user-email" type="email" name="user-email" class="write-us-user-email" placeholder="email@example.com">
+                </p>
+            </div>
+            <p class="modal-textarea">
                 <label for="user-message"><b>Текст письма:</b></label>
                 <textarea name="user-message" id="user-message" class="write-us-user-message" cols="30" rows="10" placeholder="В свободной форме"></textarea>
             </p>
             <button class="button button-modal" type="submit">Отправить</button>
         </form>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>
--->
+
+    <script>
+        var open_modal = document.querySelector(".open-modal");
+        var modal = document.querySelector(".modal-write-us");
+
+        open_modal.addEventListener("click", function(evt) {
+            evt.preventDefault();
+            modal.classList.add("modal-show");
+        });
+
+    </script>
 
 </body>
 
