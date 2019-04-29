@@ -219,7 +219,7 @@
                     <p class="address-phone">
                         тел. +7 (812) 275-75-75
                     </p>
-                    <a href="#" class="button">Напишите нам</a>
+                    <a cl href="#" class="open-modal button">Напишите нам</a>
                 </div>
             </div>
         </section>
@@ -264,26 +264,28 @@
         </div>
     </footer>
 
-    <!--
     <section class="modal modal-write-us">
         <h2>Напишите нам</h2>
         <form action="https://htmlacademy.ru" class="write-us-form">
-            <p>
-                <input id="user-name" type="text" name="user-name" class="write-us-user-name" placeholder="Имя Фамилия">
-                <label for="user-name">Ваше имя:</label>
-            </p>
-            <p>
-                <input id="user-name" type="email" name="user-email" class="write-us-user-email" placeholder="email@example.com">
-                <label for="user-name">Ваш e-mail:</label>
-            </p>
-            <p>
+            <div class="modal-flex">
+                <p>
+                    <label for="user-name"><b>Ваше имя:</b></label>
+                    <input id="user-name" type="text" name="user-name" class="write-us-user-name" placeholder="Имя Фамилия">
+                </p>
+                <p>
+                    <label for="user-email"><b>Ваш e-mail:</b></label>
+                    <input id="user-email" type="email" name="user-email" class="write-us-user-email" placeholder="email@example.com">
+                </p>
+            </div>
+            <p class="modal-textarea">
+                <label for="user-message"><b>Текст письма:</b></label>
                 <textarea name="user-message" id="user-message" class="write-us-user-message" cols="30" rows="10" placeholder="В свободной форме"></textarea>
-                <label for="user-message">Текст письма:</label>
             </p>
+            <button class="button button-modal" type="submit">Отправить</button>
         </form>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>
--->
+    
+    <script src="js/popup.js"></script>
 
-</body>
-
-</html>
+</body></html>
